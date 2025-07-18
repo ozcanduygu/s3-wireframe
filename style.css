@@ -1,3 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f0f0f0;
+}
+#header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+#hero {
+    background-color: #777;
+    color: white;
+    padding: 60px 20px;
+}
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+#hero p {
+    font-size: 18px;
+}
+.placeholder {
+    width: 240px;
+    height: 180px;
+    background-color: gray;
+    margin: 0 auto;
+}
+nav a{
+    background-color:#777 ;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color:#000 ;
+}
 /* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
 
 /* #menu bir <nav> olmalı */
